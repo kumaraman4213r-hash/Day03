@@ -47,6 +47,8 @@ console.log(g)
  console.log(null==undefined)
  console.log(null===undefined) /// ===means comparing from diffrent data  types
 
+ console.log(null==0)
+
 
 
 
