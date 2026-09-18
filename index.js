@@ -50,5 +50,76 @@ console.log(g)
  console.log(null==0)
 
 
+ //loop
+
+ //for loop
+ // post increment i++
+ // post  decrement i-- 
+
+ for(let i = 0;i<10;i++){
+    console.log(i); 
+
+ }
+ console.log("\n")  
+
+// while loop
+
+let j = 0;
+while(j<10){
+    console.log(j)
+    j++
+}
+
+ console.log("\n")  
+
+ // do while
+
+ let k = 0
+ do{
+    console.log(k)
+    k++
+ }while(k<10)
+
+
+   // if else condition
+
+   let age = 15
+   if(age>=18){
+    console.log("eligible")
+   }else{
+    console.log("not eligible")
+   }
+
+
+  // else if
+
+  let age1 = 20
+   if(age1<=18){
+    console.log("kid")
+   }else if(age1>=60){
+    console.log("old")
+
+   }else{
+    console.log("young")
+   }
+
+   // Logical Operator
+
+// && , ||
+
+// Logical AND (&&)
+console.log(true && true);   // true
+console.log(true && false);  // false
+console.log(false && true);  // false
+console.log(false && false); // false
+
+// Logical OR (||)
+console.log(true || true);   // true
+console.log(true || false);  // true
+console.log(false || true);  // true
+console.log(false || false); // false
+
+ 
+
 
 
